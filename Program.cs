@@ -13,6 +13,7 @@ Goals
 - write to a file and save it. The intention of this program is to run in a console window that can be minimized or just moved behind what you're working on, 
 so in the event of a crash/unexpected end of some kind the file is safe and an entire days worth of time tracking doesnt just disappear. 
  
+ Git test 
 */
 class Program
 {
