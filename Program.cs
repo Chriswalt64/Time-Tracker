@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Configuration;
+using System.Diagnostics.Eventing.Reader;
 
 namespace Time_Tracker;
 /*Time tracking
@@ -19,7 +20,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        ReadAllSettings();
+        string?[] Settings = ReadAllSettings();
         Console.WriteLine("--Time Tracker--");
         Console.WriteLine("Enter the name of the task.");
         string? taskName = Console.ReadLine();
@@ -40,28 +41,43 @@ class Program
         Console.WriteLine($"Start: {taskStart} //// End: {taskEnd}");
 
         string? timeEntry = $"{taskName},{taskDesc},{taskStart},{taskEnd}";
-    }
-            static void ReadAllSettings()  
-        {  
-            try  
-            {  
-                var appSettings = System.Configuration.ConfigurationManager.AppSettings;  
 
-                if (appSettings.Count == 0)  
-                {  
-                    Console.WriteLine("AppSettings is empty.");  
-                }  
-                else  
-                {  
-                    foreach (var key in appSettings.AllKeys)  
-                    {  
-                        Console.WriteLine("Key: {0} Value: {1}", key, appSettings[key]);  
-                    }  
-                }  
-            }  
-            catch (ConfigurationErrorsException)  
-            {  
-                Console.WriteLine("Error reading app settings");  
-            }  
+
+         
+        AddEntry(timeEntry, Settings);
+    }
+
+
+
+    static string?[] ReadAllSettings()  
+    {  
+        var appSettings = System.Configuration.ConfigurationManager.AppSettings;  
+
+        var  Settings = appSettings.AllKeys;
+        return Settings;
+    }
+
+    static void AddEntry(string entry, string[] settings)
+    {
+        string? path = settings[0];
+
+        try
+        {
+            //Pass the filepath and filename to the StreamWriter Constructor
+            StreamWriter sw = new StreamWriter(path);
+            //Write a line of text
+            sw.WriteLine(entry);
+
+            //Close the file
+            sw.Close();
         }
+        catch(Exception e)
+        {
+            Console.WriteLine("Exception: " + e.Message);
+        }
+        finally
+        {
+            Console.WriteLine("Executing finally block.");
+        }
+    }
 }

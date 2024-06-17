@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chris\\dotnet_stuff\\Time Tracker\\Time Tracker.csproj": {}
+    "C:\\Users\\Chris\\dotnet_stuff\\Time Tracker\\time-tracker\\Time Tracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chris\\dotnet_stuff\\Time Tracker\\Time Tracker.csproj": {
+    "C:\\Users\\Chris\\dotnet_stuff\\Time Tracker\\time-tracker\\Time Tracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chris\\dotnet_stuff\\Time Tracker\\Time Tracker.csproj",
+        "projectUniqueName": "C:\\Users\\Chris\\dotnet_stuff\\Time Tracker\\time-tracker\\Time Tracker.csproj",
         "projectName": "Time Tracker",
-        "projectPath": "C:\\Users\\Chris\\dotnet_stuff\\Time Tracker\\Time Tracker.csproj",
+        "projectPath": "C:\\Users\\Chris\\dotnet_stuff\\Time Tracker\\time-tracker\\Time Tracker.csproj",
         "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chris\\dotnet_stuff\\Time Tracker\\obj\\",
+        "outputPath": "C:\\Users\\Chris\\dotnet_stuff\\Time Tracker\\time-tracker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Chris\\AppData\\Roaming\\NuGet\\NuGet.Config"
