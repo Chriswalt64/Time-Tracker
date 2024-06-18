@@ -7,7 +7,7 @@ namespace Time_Tracker;
 Chris Walters
 
 I wanted a fairly quick way to track the time I'm taking on tasks throughout my workday. As someone who struggles with maintaing their attention, I find myself not happy with my productivity. 
-I also wanted a way to track how long some tasks were taking as I have been given extra job duties to cover empty positions on my team and wanted something to show my boss when they weren't happy with my progress. 
+I also wanted a way to track how long some tasks were taking as I have been given extra job duties to cover empty positions on my team and wanted something to show how much time those tasks take. 
 
 Goals
 - add a category selection, that reads a config file to give options, allowing for customizability
@@ -20,12 +20,26 @@ class Program
 {
     static void Main(string[] args)
     {
-        string?[] Settings = ReadAllSettings();
+        string[] Settings = ReadAllSettings();
         Console.WriteLine("--Time Tracker--");
         Console.WriteLine("Enter the name of the task.");
-        string? taskName = Console.ReadLine();
+        string taskName = Console.ReadLine();
         Console.WriteLine("Can you give a brief description of the task?");
-        string? taskDesc = Console.ReadLine();
+        string taskDesc = Console.ReadLine();
+
+        string[] categories = readCategories(Settings);
+
+        Console.WriteLine("Select a category to assign the task:");
+
+        int option = 0;
+        foreach(var category in categories) 
+        {
+            option += 1;
+            Console.WriteLine($"{option}. {category}");
+
+        }
+
+
         Console.WriteLine(taskName);
         Console.WriteLine($"Press any key to start time tracking for {taskName}");
 
@@ -48,8 +62,16 @@ class Program
     }
 
 
+    static string[] readCategories(string[] settings) 
+    {
+        string[] categories = settings[1].Split();
 
-    static string?[] ReadAllSettings()  
+        return categories;
+
+
+
+    }
+    static string[] ReadAllSettings()  
     {  
         var appSettings = System.Configuration.ConfigurationManager.AppSettings;  
 
@@ -63,13 +85,15 @@ class Program
 
         try
         {
-            //Pass the filepath and filename to the StreamWriter Constructor
-            StreamWriter sw = new StreamWriter(path);
-            //Write a line of text
-            sw.WriteLine(entry);
 
-            //Close the file
+        using (StreamWriter sw = File.AppendText(path))
+        {
+            sw.WriteLine(entry);
+                        //Close the file
             sw.Close();
+        }	
+
+
         }
         catch(Exception e)
         {

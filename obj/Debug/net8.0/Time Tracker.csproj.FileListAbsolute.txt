@@ -43,3 +43,26 @@ C:\Users\Chris\dotnet_stuff\Time Tracker\time-tracker\obj\Debug\net8.0\refint\Ti
 C:\Users\Chris\dotnet_stuff\Time Tracker\time-tracker\obj\Debug\net8.0\Time Tracker.pdb
 C:\Users\Chris\dotnet_stuff\Time Tracker\time-tracker\obj\Debug\net8.0\Time Tracker.genruntimeconfig.cache
 C:\Users\Chris\dotnet_stuff\Time Tracker\time-tracker\obj\Debug\net8.0\ref\Time Tracker.dll
+C:\Users\cawa244\Documents\Time-Tracker\obj\Debug\net8.0\Time Tracker.csproj.AssemblyReference.cache
+C:\Users\cawa244\Documents\Time-Tracker\obj\Debug\net8.0\Time Tracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cawa244\Documents\Time-Tracker\obj\Debug\net8.0\Time Tracker.AssemblyInfoInputs.cache
+C:\Users\cawa244\Documents\Time-Tracker\obj\Debug\net8.0\Time Tracker.AssemblyInfo.cs
+C:\Users\cawa244\Documents\Time-Tracker\obj\Debug\net8.0\Time Tracker.csproj.CoreCompileInputs.cache
+C:\Users\cawa244\Documents\Time-Tracker\obj\Debug\net8.0\Time Tracker.sourcelink.json
+C:\Users\cawa244\Documents\Time-Tracker\obj\Debug\net8.0\Time Tracker.dll
+C:\Users\cawa244\Documents\Time-Tracker\obj\Debug\net8.0\refint\Time Tracker.dll
+C:\Users\cawa244\Documents\Time-Tracker\obj\Debug\net8.0\Time Tracker.pdb
+C:\Users\cawa244\Documents\Time-Tracker\bin\Debug\net8.0\Time Tracker.exe
+C:\Users\cawa244\Documents\Time-Tracker\bin\Debug\net8.0\Time Tracker.dll.config
+C:\Users\cawa244\Documents\Time-Tracker\bin\Debug\net8.0\Time Tracker.deps.json
+C:\Users\cawa244\Documents\Time-Tracker\bin\Debug\net8.0\Time Tracker.runtimeconfig.json
+C:\Users\cawa244\Documents\Time-Tracker\bin\Debug\net8.0\Time Tracker.dll
+C:\Users\cawa244\Documents\Time-Tracker\bin\Debug\net8.0\Time Tracker.pdb
+C:\Users\cawa244\Documents\Time-Tracker\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\cawa244\Documents\Time-Tracker\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\cawa244\Documents\Time-Tracker\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\cawa244\Documents\Time-Tracker\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\cawa244\Documents\Time-Tracker\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\cawa244\Documents\Time-Tracker\obj\Debug\net8.0\Time Tra.F5EA6D67.Up2Date
+C:\Users\cawa244\Documents\Time-Tracker\obj\Debug\net8.0\Time Tracker.genruntimeconfig.cache
+C:\Users\cawa244\Documents\Time-Tracker\obj\Debug\net8.0\ref\Time Tracker.dll

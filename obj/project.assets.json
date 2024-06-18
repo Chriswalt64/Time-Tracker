@@ -179,24 +179,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Chris\\.nuget\\packages\\": {}
+    "C:\\Users\\cawa244\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Chris\\dotnet_stuff\\Time Tracker\\Time-Tracker\\Time Tracker.csproj",
+      "projectUniqueName": "C:\\Users\\cawa244\\Documents\\Time-Tracker\\Time Tracker.csproj",
       "projectName": "Time Tracker",
-      "projectPath": "C:\\Users\\Chris\\dotnet_stuff\\Time Tracker\\Time-Tracker\\Time Tracker.csproj",
-      "packagesPath": "C:\\Users\\Chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Chris\\dotnet_stuff\\Time Tracker\\Time-Tracker\\obj\\",
+      "projectPath": "C:\\Users\\cawa244\\Documents\\Time-Tracker\\Time Tracker.csproj",
+      "packagesPath": "C:\\Users\\cawa244\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cawa244\\Documents\\Time-Tracker\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Chris\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\cawa244\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -241,7 +249,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
